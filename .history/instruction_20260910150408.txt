@@ -1,0 +1,284 @@
+I want you to build a production-quality digital wedding invitation platform inspired by the functionality and business concept of https://wedinvite.net/, but DO NOT copy its branding, copyrighted text, exact designs, images, or source code.
+
+Act as a senior full-stack engineer, UI/UX designer, product architect, and QA engineer.
+
+PROJECT:
+Build a modern digital wedding invitation platform where users can browse invitation templates, preview them, customize wedding information, and generate/share a beautiful digital invitation.
+
+PRIMARY GOAL:
+Create a working MVP first, with clean architecture so it can later become a full commercial platform.
+
+CORE FEATURES:
+
+1. LANDING PAGE
+- Premium wedding-focused design
+- Elegant, modern, responsive UI
+- Hero section with strong CTA
+- Featured invitation templates
+- Categories
+- How it works
+- Featured designs
+- Testimonials
+- FAQ
+- Footer
+- Mobile-first design
+
+2. INVITATION CATALOG
+Create a searchable/filterable catalog of invitation templates.
+
+Categories should include:
+- Wedding
+- Engagement
+- Reception
+- Mehendi
+- Haldi
+- Birthday
+- Anniversary
+- Baby Shower
+- Traditional
+- Modern
+- Floral
+- Minimal
+- Luxury
+- Nepali
+- Hindu
+- Buddhist
+- Custom
+
+Each template should have:
+- Preview image/placeholder
+- Template name
+- Category
+- Style
+- Price
+- View Demo button
+- Customize button
+
+3. TEMPLATE DETAIL PAGE
+Create a beautiful product/template page with:
+- Large invitation preview
+- Image gallery
+- Description
+- Features
+- Price
+- Customize button
+- Live demo
+- Related templates
+
+4. INVITATION CUSTOMIZER
+Create an actual working invitation editor.
+
+Users should be able to enter:
+- Bride name
+- Groom name
+- Wedding date
+- Wedding time
+- Venue
+- Address
+- Google Maps URL
+- Couple message
+- RSVP contact
+- Family names
+- Event schedule
+
+Support multiple events:
+- Engagement
+- Mehendi
+- Haldi
+- Wedding
+- Reception
+
+The preview should update live as the user edits the form.
+
+5. DIGITAL INVITATION PAGE
+Each invitation should have a unique URL such as:
+
+/invite/john-and-jane
+
+The public invitation should contain:
+- Couple names
+- Wedding date
+- Countdown timer
+- Hero image
+- Wedding message
+- Event schedule
+- Venue
+- Map
+- Gallery
+- RSVP
+- Share buttons
+- WhatsApp sharing
+- Add-to-calendar button
+- Background music toggle
+- Beautiful animations
+
+6. RSVP
+Create a working RSVP form:
+- Guest name
+- Attendance
+- Number of guests
+- Message
+- Optional meal preference
+
+Store the RSVP data.
+
+7. ADMIN DASHBOARD
+Create an admin dashboard where an administrator can:
+- Add templates
+- Edit templates
+- Delete templates
+- View invitations
+- View customers
+- View RSVP responses
+- Manage categories
+- Manage orders
+
+8. USER DASHBOARD
+Users should be able to:
+- Create invitations
+- Edit invitations
+- Preview invitations
+- Copy invitation URL
+- View RSVP responses
+- Manage their profile
+
+9. AUTHENTICATION
+Implement a clean authentication architecture.
+
+Support:
+- Register
+- Login
+- Logout
+- Forgot password
+- User sessions
+
+10. PAYMENTS
+Design the architecture so payment can later support:
+- eSewa
+- Khalti
+- Stripe
+
+For the MVP, create a payment abstraction/interface and use a mock payment provider rather than requiring real payment credentials.
+
+11. DATABASE
+Design a proper relational database schema for:
+- users
+- templates
+- categories
+- invitations
+- invitation_events
+- invitation_gallery
+- rsvps
+- orders
+- payments
+
+12. SEO
+Implement:
+- Proper page titles
+- Meta descriptions
+- Open Graph metadata
+- SEO-friendly URLs
+- Sitemap
+- robots.txt
+- Structured data where appropriate
+
+13. PERFORMANCE
+Optimize for:
+- Mobile
+- Fast page loads
+- Lazy loading
+- Image optimization
+- Minimal JavaScript where possible
+
+14. DESIGN
+Do NOT clone WedInvite.
+
+Create an original visual identity:
+- Elegant
+- Premium
+- Romantic
+- Modern
+- Clean
+- Lots of whitespace
+- Beautiful typography
+- Sophisticated animations
+- Responsive on phone, tablet and desktop
+
+Use a restrained color system suitable for wedding invitations.
+
+TECHNICAL REQUIREMENTS:
+
+First inspect the current project directory.
+
+Do NOT blindly overwrite an existing project.
+
+If the project is empty, create a suitable modern full-stack architecture.
+
+Prefer:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- PostgreSQL
+- Prisma
+- Modern component architecture
+
+Use reusable components.
+
+Keep frontend, backend, database, and business logic properly separated.
+
+IMPORTANT:
+Before making major architectural decisions, inspect the existing files and determine what is already installed.
+
+Then:
+
+PHASE 1:
+Analyze the existing project.
+
+PHASE 2:
+Create the architecture.
+
+PHASE 3:
+Implement the landing page and design system.
+
+PHASE 4:
+Implement template catalog.
+
+PHASE 5:
+Implement invitation customization and live preview.
+
+PHASE 6:
+Implement public invitation pages.
+
+PHASE 7:
+Implement authentication, database and dashboards.
+
+PHASE 8:
+Implement RSVP.
+
+PHASE 9:
+Prepare payment abstraction.
+
+PHASE 10:
+Run the application and test it.
+
+After each major phase:
+- Check for TypeScript errors
+- Check for build errors
+- Fix errors
+- Test the affected functionality
+
+Do not merely generate a description of the website.
+
+Actually create and modify the project files.
+
+When you finish, provide:
+1. Architecture summary
+2. Files created/modified
+3. How to run the project
+4. Environment variables required
+5. Database setup commands
+6. Test results
+7. Remaining limitations
+8. Recommended next development steps
+
+Start by inspecting the current workspace. Do not ask me to manually create files unless absolutely necessary.
